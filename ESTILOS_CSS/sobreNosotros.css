@@ -9,13 +9,6 @@
 
 .contenedor{
     background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    background-position-y: -80px;
 }
 
 
@@ -69,25 +62,20 @@
     padding: 10px 20px;
 }
 .section_nosotros{
-    padding-top: 90px;
     padding-bottom: 50px;
-    border: 1px solid;
     display: flex;
     justify-content: center;
-    height: 700px
 }
 
-.article_desc_imagen{
-    width: 50%;
-    height: 50%;
-}
+
 .article_desc_imagen img{
-    width: 100%;
+    
+    width: 650px;
 }
 
 .article_description{
     width: 500px;
-    padding: 60px 30px;
+    padding: 30px 30px;
 }
 
 .article_description h1{
@@ -97,6 +85,7 @@
 
 .article_description p{
     line-height: 2;
+    padding-right: 30px;
 }
 
 .section_sobreNosotros h2{
@@ -133,15 +122,206 @@
     height: 100px;
     justify-content: center;
     align-items: center;
+    background-color: #262626;
 }
 
 .footer_list_menu--links{
-    color: #000000;
+    color: #ffffff;
     padding: 5px 30px;
-    border-right: 1px solid #161616;
+    border: 1px solid #000000; 
 }
 
 .footer_list_menu--link{
     padding: 5px 30px;
     color: #000000;
 }
+
+@media only screen and (max-width : 900px) {
+
+    .contenedor{
+        background-color: rgb(0, 0, 0);
+        }
+        
+        .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        }
+        
+        .logo{
+        color: #ffffff;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight:100;
+        margin:20px;
+        }
+        
+        .section_cont_menu{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        }
+        
+        .icons_sun_moon{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        height: 34px;
+        margin-bottom: 5px;
+        }
+        
+        .icon_moon{
+        position: absolute;
+        width: 30px;
+        right: 17px;
+        }
+        .icon_sun{
+        position: absolute;
+        width: 30px;
+        display: none;
+        }
+        
+        .nav_menu{
+        display: none;
+        }
+        
+        .nav_menu_links a{
+        color: #ffffff;
+        padding: 10px 20px;
+        }
+
+        .section_nosotros{
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .article_desc_imagen img{
+            max-width: 100%;
+        }
+
+        .section_nosotros{
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            }
+
+            .sobre--nosotros{
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .footer_list_menu{
+                display: flex;
+                height: 100px;
+                align-items: center;
+                flex-direction: column;
+                padding: 25px 0;
+                margin-top: 40px;
+            }
+
+            .footer_list_menu li{
+                padding: 5px 0;
+            }
+
+            .footer_list_menu--links{
+                color: #ffffff;
+                padding: 5px 30px;
+                border: none;
+            }
+
+            .footer_list_menu--link{
+                padding: 5px 30px;
+                color: #ffffff;
+            }
+
+        @media screen and (min-width: 768px) {
+            .nav_menu{
+            display: flex;
+            }
+            
+            .article_desc_imagen img{
+                min-width: 100%;
+            }
+            
+            .section_nosotros{
+            padding-top: 90px;
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            }
+            
+            .article_desc_imagen img{
+            max-width: 100%;
+            height: auto;
+            }
+            
+            .article_description{
+            width: 100%;
+            padding: 30px;
+            overflow: hidden;
+            }
+            
+            .article_description h1{
+            font-size: 29px;
+            padding-bottom: 20px;
+            }
+            
+            .article_description p{
+            line-height: 2;
+            padding-right: 30px;
+            }
+            
+            .section_sobreNosotros h2{
+            text-align: center;
+            padding: 30px 0;
+            }
+            
+            .sobre--nosotros{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            }
+            
+            .article_sobre--nosotros img{
+            width: 100px;
+            margin-bottom: 30px;
+            }
+            .article_sobre--nosotros{
+            text-align: center;
+            margin: 0 10px;
+            width: 210px;
+            }
+            
+            .derechos_reservados{
+            background-color: #262626;
+            color: #ffffff;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+            
+            .footer_list_menu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            
+            }
+            
+            .footer_list_menu--links{
+            color: #000000;
+            padding: 5px 10px
+            }
+        }
+        
+}
+
