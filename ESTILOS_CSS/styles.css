@@ -129,8 +129,7 @@ font-family: sans-serif;
 font-weight: 600;
 }
 .images_depas_casas--venta{
-    width: 250px;
-    border-radius: 20px 20px 0 0;
+    width: 300px;
 }
 
 .figure_icons_coche_inodoro--cama img{
@@ -143,11 +142,10 @@ font-weight: 600;
 }
 
 .article_casas_and--depas{
-    width: 250px;
+    width: 300px;
     height: 420px;
     background-color: rgb(210, 218, 151);
     text-align: center;
-    border-radius: 20px;
     box-shadow: 1px 2px 15px 1px rgb(173, 173, 173) ;
 }
 
@@ -287,13 +285,23 @@ font-weight: 600;
     padding: 5px 30px;
     color: #000000;
 }
-
-.article_nuestro--blog{
+.section--blog{
     display: flex;
 }
 
+.article_nuestro--blog{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 20px 40px;
+}
+
+.section_nuestro--blog h2{
+    text-align: center;
+}
+
 .article_nuestro--blog img{
-    width: 350px;
+    width: 300px;
 }
 
 .consejos_blog{
@@ -317,4 +325,79 @@ font-weight: 600;
 
 .fecha_de_consejo strong{
     color: #ffa200;
+}
+
+.section--testimonio{
+    border: 1px solid;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.section--testimonio h2{
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+
+
+.article--testimonio{
+    width: 200px;
+    height: 380px;
+    background-color: rgb(0, 199, 90);
+    border-radius: 30px;
+    padding: 20px 0;
+    padding-left: 70px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article--testimonio p{
+    line-height: 2;
+}
+
+.article--testimonio span{
+    display: flex;
+    justify-content: end;
+    padding: 20px 5px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+
+    .icons_sun_moon{
+        display: none;
+        justify-content: flex-end;
+        position: relative;
+       height: 34px;
+       width: 100%;
+       margin-bottom: 5px;
+    }
+
+    .icon_sun{
+        position: absolute;
+        width: 30px;
+        display: none;
+    }
+    
+    .nav_menu{
+        display: none;
+    }
+
 }
