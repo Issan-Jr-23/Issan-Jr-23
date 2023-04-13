@@ -65,11 +65,11 @@
     padding-bottom: 50px;
     display: flex;
     justify-content: center;
+    margin-top: 80px;
 }
 
 
 .article_desc_imagen img{
-    
     width: 650px;
 }
 
@@ -104,7 +104,7 @@
 }
 .article_sobre--nosotros{
     text-align: center;
-    margin: 0 10px;
+    margin: 10px 10px;
     width: 210px;
 }
 

@@ -68,3 +68,85 @@
     color: #ffffff;
     padding: 10px 20px;
 }
+
+.section--blog{
+    display: flex;
+    border-bottom: 5px solid #ffa200;
+    padding-bottom: 70px;
+}
+
+.section_nuestro--blog{
+    width: 100%;
+}
+
+.article_nuestro--blog{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 20px 40px;
+}
+
+.section_nuestro--blog h1{
+    text-align: center;
+    font-size: 34px;
+    padding: 14px 0px;
+}
+
+.article_nuestro--blog img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.consejos_blog{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.consejos_blog h3{
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.consejos_blog hr{
+    width: 110px;
+    height: 2px;
+    background-color: #34dd00;
+}
+
+.fecha_de_consejo{
+    padding: 25px 0;
+}
+
+.fecha_de_consejo strong{
+    color: #ffa200;
+}
+
+.derechos_reservados{
+    background-color: #262626;
+    color: #ffffff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_list_menu{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+}
+
+.footer_list_menu--links{
+    color: #ffffff;
+    padding: 5px 30px; 
+}
+
+.footer_list_menu--link{
+    padding: 5px 30px;
+    color: #ffffff;
+}
