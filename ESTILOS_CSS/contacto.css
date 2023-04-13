@@ -91,75 +91,62 @@
     height: 100%;
 }
 
+/*-------------Formulario------------*/
 
-.section_contac_venta_casa_despas{
+.formulario{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.cont--section{
+.formulario h2{
+    text-align: center;
+}
+
+.article_form_information{
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.article_contac_formulario{
-    width: 90%;
+
+.form_informacion_personal label{
+    width: 97%;
     border: 1px solid;
+}
+
+.form_informacion_personal{
     display: flex;
-    flex-direction: column; 
-    text-align: center;
-
-
-    
+    flex-direction: column;
+    border: 3px solid red;
+    width: 90%;
     align-items: center;
+    justify-content: center;
 }
 
-.article_contac_formulario h3{
-    padding-left: 84px;
-    padding-top: 70px;
-    padding-bottom: 30px;
-    font-size: 25px;
-}
-
-.form_contacto{
+.textarea{
     display: flex;
     flex-direction: column;
+}
+
+
+.form_informacion_personal input{
+    width: 98.8%;
+    height: 30px;
+    padding: 0 5px;
+}
+
+.form_informacion_personal h3{
+    display: block;
+    justify-content: flex-end;
     border: 1px solid;
-    width: 90%;
+    width: 97%;
 }
 
-.form_contacto h4{
-    display: flex;
-    align-self: baseline;
-}
+/*----------------------------------*/
 
-.label_input_contac{
-    display: flex;
-    flex-direction: column;
-}
 
-.label_input_contac span{
-    margin-top: 18px;
-    display: flex;
-    font-weight: 600;
-}
-
-.label_input_contac input{
-    height: 25px;
-    border-radius: 10px;
-    border: none;
-    border: 1px solid #d3d3d3;
-    width: 100%;
-    outline: none;
-    padding: 0 6px;
-}
-
-.label_input_contac textarea{
-    border-radius: 10px;
-    border: none;
-    border: 1px solid #d3d3d3;
-    width: 100.7%;
-}
 
 
 .derechos_reservados{
